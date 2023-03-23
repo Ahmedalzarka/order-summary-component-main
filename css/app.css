@@ -57,7 +57,8 @@ p{
     opacity: 0.5;
     font-size: 16px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
+    opacity: 0.4;
 }
 .plan-container{
     background-color: var(--pale-blue-low-opacity);
@@ -76,7 +77,7 @@ p{
 }
 .plan-container p{
     margin-top: 0;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 .plan-container a{
     margin-left: auto;
@@ -99,8 +100,10 @@ p{
     border: none;
     outline: none;
     color: white;
-    font-weight: 900;
+    font-weight: 700;
+    font-size: 18px;
     border-radius: 10px;
+    box-shadow: 0 5px 30px var(--bright-blue-low-opacity);
 }
 #payment:hover{
     background-color: var(--bright-blue-low-opacity);
@@ -110,8 +113,9 @@ p{
     background-color: #0000;
     border: none;
     color: var(--desaturated-blue);
-    font-weight: 900;
+    font-weight: 700;
     margin-bottom: 20px;
+    font-size: 16px;
 }
 #cancel:hover{
     color: var(--dark-blue);
